@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário</title>
+    <link rel="shortcut icon" href="../public/pictures/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../public/styles/reset.css">
+    <link rel="stylesheet" href="../public/styles/vars.css">
+    <link rel="stylesheet" href="../public/styles/main.css">
+    <link rel="stylesheet" href="../public/styles/cadastro.css">
+</head>
+</head>
+</head>
+<body>
+    <header class="header">
+        <div class="header__title">
+            <h1>Cadastro</h1>
+        </div><!--header__title-->
+        <div class="header__nav">
+            <nav>
+                <ul>
+                    <li><a href="/">Calendário</a></li>
+                    <li><a href="#cadastro">Cadastro</a></li>
+                    <li><a href="https://institucional.uceff.edu.br/uceff/uceff/a-uceff">Saiba Mais</a></li>
+                </ul>            
+            </nav>
+        </div><!--header__nav-->
+    </header>
+
+    <main>
+        <div class="wrapper" id="cadastro">
+            <h1>Faça seu cadastro!</h1>
+            <form action="/cadastro/save" method="POST">
+                <div class="nome">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                    <br>
+                </div><!--nome-->
+                
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                    <br>
+                </div><!--email-->
+
+                <div class="dataNasc">
+                    <label for="dataNasc">Data de nascimento</label>
+                    <input type="date" name="dataNasc" id="dataNasc">
+                    <br>
+                </div><!--dataNasc-->
+
+                <div class="submit">
+                    <input type="submit" value="Cadastrar">
+                </div><!--submit-->
+            </form>
+        </div><!--wrapper-->
+    </main>
+
+    <footer>
+        <span>Projeto desenvolvido por Nathália Dagort Ferlin em Março de 2024.</span>
+    </footer>
+</body>
+</body>
+</html>

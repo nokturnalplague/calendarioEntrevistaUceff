@@ -1,0 +1,14 @@
+:root{
+    /*CORES*/
+    --cinza-claro: #aeadad;
+    --cinza-escuro: #585556;
+    --amarelo: #feda00;
+    --laranja: #ff6a00;
+    --footer: #383737;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.otf) format("opentype");
+    src: url(../fonts/Roboto-Regular.ttf) format("truetype");
+}

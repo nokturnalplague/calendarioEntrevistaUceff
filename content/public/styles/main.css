@@ -1,0 +1,72 @@
+body{
+    background-color: var(--cinza-escuro);
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    margin: 0 0 70px 0;
+}
+
+.header{
+    background-color: var(--laranja);
+    color: #fff;
+    padding: 15px;
+    margin: 10px;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    z-index: 1000; /* Para garantir que o cabeçalho flutuante esteja sempre acima do conteúdo */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.header .header__title{
+    font-size: 1.5em;
+    margin-left: 30px;
+}
+
+.header .header__nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header .header__nav ul li{
+    padding: 20px;
+}
+
+.header__nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.header__nav ul li a:hover{
+    background-color: var(--amarelo);
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+main{
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: var(--footer);
+    color: #fff;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
